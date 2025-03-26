@@ -69,6 +69,25 @@
             cursor: pointer;
             border-radius: 50%;
         }
+
+            .styled-input {
+                font-size: 18px;
+                padding: 10px;
+                width: 80%;
+                max-width: 300px;
+                text-align: center;
+                border: 2px solid #00509E;
+                border-radius: 8px;
+                outline: none;
+                box-shadow: 0 0 10px rgba(0, 80, 158, 0.5);
+                transition: all 0.3s ease-in-out;
+            }
+            
+            .styled-input:focus {
+                border-color: #66ccff;
+                box-shadow: 0 0 15px rgba(102, 204, 255, 0.8);
+            
+        }
     </style>
 </head>
 <body>
@@ -97,7 +116,7 @@
         <h1 class="glow-title">🌀 Word Puzzle Challenge 🌀</h1>
         <h2>Magic Counter: <span id="magic-counter">0</span> ✨</h2>
         <h2 id="scrambled-word"></h2>
-        <input type="text" id="user-input" placeholder="Your answer here">
+        <input type="text" id="user-input" placeholder="Enter your magical answer..." class="styled-input">
         <button class="btn" onclick="checkAnswer()">Submit</button>
         <p id="result"></p>
         <button class="btn" onclick="restartGame()">Restart</button>
