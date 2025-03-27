@@ -1,4 +1,4 @@
-# Word Wizard
+# Word Wizard JavaScript Game
 
 ## 📌 Overview
 Word Wizard is an engaging word puzzle game where players must arrange randomly displayed letters into meaningful words. The challenge lies in correctly aligning the letters to form valid words within a given time limit.
